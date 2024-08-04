@@ -2,7 +2,7 @@
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         ListNode currNode = head;
-        ListNode prevNode = new ListNode(); // dummy node
+        ListNode prevNode = new ListNode(); 
         head = prevNode;
         prevNode.next = currNode;
 
